@@ -64,8 +64,8 @@ export default function Index() {
               <div className="absolute -inset-6 bg-gradient-to-br from-gold-600 to-gold-400 rounded-lg blur opacity-30"></div>
               <div className="relative bg-maroon-800 rounded-lg overflow-hidden border-4 border-gold-500 shadow-2xl">
                 <img
-                  src="https://cdn.builder.io/api/v1/image/assets%2F8f49c59097614fd9a7f8f00c29caaf7d%2F61ed3ffe8a46403fb2d88b39a4641ed6?format=webp&width=800"
-                  alt="Arabian Wedding Theme"
+                  src="https://images.pexels.com/photos/31045373/pexels-photo-31045373.jpeg"
+                  alt="Luxurious Wedding Decoration with Golden Floral Arrangements"
                   className="w-full h-auto object-cover"
                 />
               </div>
