@@ -13,6 +13,11 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        serif: ["Playfair Display", "serif"],
+        script: ["Cormorant Garamond", "serif"],
+        sans: ["Inter", "sans-serif"],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -57,6 +62,43 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        maroon: {
+          50: "hsl(var(--maroon-50))",
+          100: "hsl(var(--maroon-100))",
+          200: "hsl(var(--maroon-200))",
+          300: "hsl(var(--maroon-300))",
+          400: "hsl(var(--maroon-400))",
+          500: "hsl(var(--maroon-500))",
+          600: "hsl(var(--maroon-600))",
+          700: "hsl(var(--maroon-700))",
+          800: "hsl(var(--maroon-800))",
+          900: "hsl(var(--maroon-900))",
+        },
+        gold: {
+          50: "hsl(var(--gold-50))",
+          100: "hsl(var(--gold-100))",
+          200: "hsl(var(--gold-200))",
+          300: "hsl(var(--gold-300))",
+          400: "hsl(var(--gold-400))",
+          500: "hsl(var(--gold-500))",
+          600: "hsl(var(--gold-600))",
+          700: "hsl(var(--gold-700))",
+          800: "hsl(var(--gold-800))",
+          900: "hsl(var(--gold-900))",
+        },
+        "islamic-green": {
+          50: "hsl(var(--islamic-green-50))",
+          100: "hsl(var(--islamic-green-100))",
+          200: "hsl(var(--islamic-green-200))",
+          300: "hsl(var(--islamic-green-300))",
+          400: "hsl(var(--islamic-green-400))",
+          500: "hsl(var(--islamic-green-500))",
+          600: "hsl(var(--islamic-green-600))",
+          700: "hsl(var(--islamic-green-700))",
+          800: "hsl(var(--islamic-green-800))",
+          900: "hsl(var(--islamic-green-900))",
+        },
+        cream: "hsl(var(--cream))",
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -80,10 +122,30 @@ export default {
             height: "0",
           },
         },
+        "fade-in": {
+          from: {
+            opacity: "0",
+          },
+          to: {
+            opacity: "1",
+          },
+        },
+        "slide-up": {
+          from: {
+            opacity: "0",
+            transform: "translateY(10px)",
+          },
+          to: {
+            opacity: "1",
+            transform: "translateY(0)",
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "fade-in": "fade-in 0.5s ease-out",
+        "slide-up": "slide-up 0.5s ease-out",
       },
     },
   },
